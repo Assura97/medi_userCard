@@ -1,7 +1,8 @@
 @charset 'utf-8';
 @import url('./reset.css');
 @import url('./font.css');
-
+@import url('./print_style.css') print;
+@import url('./sreen_style.css') screen;
 :root{
   font-size: 22px;
 }
