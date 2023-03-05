@@ -1,0 +1,67 @@
+h1{
+  text-align: center;
+  color: red;
+  font-size: 3rem;
+}
+@media print{
+  h1{
+    text-align: center;
+    color: green;
+    font-size: 2rem;
+  }
+}
+@media (max-width:576px){
+  h1{
+    text-align: center;
+    color:violet;
+    font-size: 1rem;
+    border: 3px dotted dodgerblue;
+  }
+}
+@media (min-width:576px){
+  h1{
+    text-align: center;
+    color:green;
+    font-size: 3rem;
+    border: 3px dotted dodgerblue;
+  }
+}
+@media (min-width:768px){
+  h1{
+    text-align: center;
+    color: blue;
+    font-size: 3rem;
+    border: 3px dotted dodgerblue;
+  }
+}@media (min-width:992px){
+  h1{
+    text-align: center;
+    color: blue;
+    font-size: 3rem;
+    border: 3px dotted dodgerblue;
+  }
+}@media (min-width:1200px){
+  h1{
+    text-align: center;
+    color: blue;
+    font-size: 3rem;
+    border: 3px dotted dodgerblue;
+  }
+}
+@media (min-width:1400px){
+  h1{
+    text-align: center;
+    color: blue;
+    font-size: 3rem;
+    border: 3px dotted dodgerblue;
+  }
+}
+
+/* $grid-breakpoints: (
+  xs: 0,       <576px  [320,576)   - small smartphone
+  sm: 576px,   >=576px [576, 769)  - smartphones
+  md: 768px,   >=768px [768, 992)  - tablets
+  lg: 992px,   >=992px [992, 1200) - desktop laptop
+  xl: 1200px,  >=1200px[1200, 1400)- desktop
+  xxl: 1400px  >=1400px[1400, )    - desktop large
+); */
