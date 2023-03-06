@@ -1,0 +1,5 @@
+<source srcset="./assets/images/sea.jpg" media="(max-width:576px)">
+<source srcset="./assets/images/city_1.jpg" media="(min-width:577px) and (max-width:767px)">
+<source srcset="./assets/images/nature_1.jpg" media="(min-width:768px) and (max-width:991px)">                       
+<source srcset="./assets/images/nature_2.jpg" media="(min-width:992px) and (max-width:1199px)">
+<source srcset="./assets/images/girl_1.png" media="(min-width:1200px) and (max-width:1399px)">
